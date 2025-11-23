@@ -60,7 +60,7 @@ async def destroy_ec2():
         result = subprocess.run(
             [
                 "terraform", "destroy",
-                "-target=aws_instance.oneyes",   # ✅ EC2-specific target
+                "-target=aws_instance.krish-crp",   # ✅ EC2-specific target
                 "-auto-approve",
             ],
             cwd=TERRAFORM_DIR,
