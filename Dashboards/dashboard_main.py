@@ -1,4 +1,3 @@
-# crt fe 4 - export, otp and other functions are fine. small tabular column. line of code, 345.
 
 import streamlit as st
 import requests
@@ -426,3 +425,4 @@ elif st.session_state.page=="user":
     user_dashboard()
 elif st.session_state.page=="admin":
     admin_dashboard()
+
