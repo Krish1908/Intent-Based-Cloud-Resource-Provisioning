@@ -103,3 +103,5 @@ The system dynamically generates IaC, deploys resources on AWS, and even provide
 4. User can destroy allocated resources
 5. All actions logged and exportable
 
+[![Workflow Architecture](https://github.com/Krish1908/Intent-Based-Cloud-Resource-Provisioning/blob/main/Workflow%20Architecture%2004.png?raw=true)](https://github.com/Krish1908/Intent-Based-Cloud-Resource-Provisioning/blob/main/Workflow%20Architecture%2004.png?raw=true)
+
