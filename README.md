@@ -73,7 +73,20 @@ The system dynamically generates IaC, deploys resources on AWS, and even provide
 `stop-all.py` → Stops all running project servers
 
 
-## How to Run
+## Workflow Summary
+
+1. User submits natural-language request
+2. Admin approves
+3. Based on request:
+   - EC2 → Terraform creates instance → Streamlit opens live terminal
+   - S3 → Terraform creates bucket → User uploads/manages files
+4. User can destroy allocated resources
+5. All actions logged and exportable
+
+## Architecture Diagram
+[![Workflow Architecture](https://github.com/Krish1908/Intent-Based-Cloud-Resource-Provisioning/blob/main/Workflow%20Architecture%2004.png?raw=true)](https://github.com/Krish1908/Intent-Based-Cloud-Resource-Provisioning/blob/main/Workflow%20Architecture%2004.png?raw=true)
+
+## Getting Started
 
 1. Clone the repo
 
@@ -92,16 +105,4 @@ The system dynamically generates IaC, deploys resources on AWS, and even provide
 6. Stop all services:
 `python stop-all.py`
 
-
-## Workflow Summary
-
-1. User submits natural-language request
-2. Admin approves
-3. Based on request:
-   - EC2 → Terraform creates instance → Streamlit opens live terminal
-   - S3 → Terraform creates bucket → User uploads/manages files
-4. User can destroy allocated resources
-5. All actions logged and exportable
-
-[![Workflow Architecture](https://github.com/Krish1908/Intent-Based-Cloud-Resource-Provisioning/blob/main/Workflow%20Architecture%2004.png?raw=true)](https://github.com/Krish1908/Intent-Based-Cloud-Resource-Provisioning/blob/main/Workflow%20Architecture%2004.png?raw=true)
 
