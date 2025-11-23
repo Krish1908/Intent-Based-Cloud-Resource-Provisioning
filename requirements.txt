@@ -1,0 +1,38 @@
+# === Core Frameworks ===
+fastapi==0.119.0
+uvicorn==0.38.0
+streamlit==1.50.0
+streamlit-autorefresh==1.0.1
+
+# === Cloud & Infra Automation ===
+boto3==1.40.55
+asyncssh==2.21.1
+paramiko==4.0.0
+
+# === Database & ORM ===
+SQLAlchemy==2.0.44
+psycopg2==2.9.11
+
+# === Security & Authentication ===
+passlib==1.7.4
+bcrypt==4.1.2
+
+# === Data Handling ===
+pandas==2.3.3
+xlsxwriter==3.2.9
+
+# === Utility Libraries ===
+requests==2.32.5
+psutil==7.1.3
+python-multipart==0.0.20
+
+# === GUI / Local Tools ===
+tk==0.1.0
+pyte==0.8.2
+
+# === Email / Notifications ===
+smtplib  # standard library, listed here for clarity
+email    # standard library, listed for clarity
+
+# === Optional ===
+# python-dotenv==1.1.1   # if you use .env files for secrets or keys
